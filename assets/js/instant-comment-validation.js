@@ -7,11 +7,11 @@ jQuery(document).ready(function($) {
 	$('#commentform').validate({	 
 		rules: {
 		  author: {
-			required: true,
+			required: false,
 			minlength: 1
 		  },		 
 		  email: {
-			required: true,
+			required: false,
 			email: true
 		  },
 		  comment: {
